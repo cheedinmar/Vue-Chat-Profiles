@@ -1,0 +1,21 @@
+ .height{
+     height: 435px;
+ }
+/* body{
+    font-family:  'TT Norms';
+} */
+ .imgContainer{
+     width: 60px;
+     height: 60px;
+ }
+ .width{
+     width: 126px;
+ }
+
+ .following{
+     background-color: #c1c2ff;
+ }
+
+ .notfollowing{
+    background-color: #5458F7;
+ }
