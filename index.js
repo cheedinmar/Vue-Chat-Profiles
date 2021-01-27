@@ -1,7 +1,7 @@
  import profile from "./components/profile/indexProfile.js"
  import mutualFollow from "./components/mutualFollow/mutual.js"
- import button from "./components/button.js"
- import text from "./components/text.js";
+//  import button from "./components/button.js"
+//  import text from "./components/text.js";
 
  const main = {
      methods:{
@@ -32,6 +32,6 @@
  const mainApp = Vue.createApp(main)
  mainApp.component('mutualFollow', mutualFollow);
  mainApp.component('profile', profile);
- mainApp.component('countButton', button);
- mainApp.component('paragraph', text);
+//  mainApp.component('countButton', button);
+//  mainApp.component('paragraph', text);
  mainApp.mount('#root')

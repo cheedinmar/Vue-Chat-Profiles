@@ -48,18 +48,18 @@ export default{
     :prof="profile"></profileOne>
     </div>`,
 
-    methods:{
-        following(follow){
-            for(profile in profiles){
-                var follow= this.profile.isFollowing
-                if(follow == false){
-                    console.log('Following is false')
-                }else{
-                    console.log('Following is true')
-}
-            }
-        }
-    }
+//     methods:{
+//         following(follow){
+//             for(profile in profiles){
+//                 var follow= this.profile.isFollowing
+//                 if(follow == false){
+//                     console.log('Following is false')
+//                 }else{
+//                     console.log('Following is true')
+// }
+//             }
+//         }
+//     }
 
    
 

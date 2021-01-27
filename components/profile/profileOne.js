@@ -5,7 +5,7 @@ export default{
         <img :src="'./images/User/'+prof.images">
     </div>
     <p class="mb-3 font-black leading-5">{{prof.name}}</p>
-    <button class="w-24  h-10 rounded-3xl px-5  text-white font-black leading-5" :class="(prof.isFollowing == false ? 'bg-blue-600' : 'bg-blue-300')"  >{{prof.isFollowing}} </button>
+    <button class="px-2  h-10 rounded-3xl px-5  text-white font-black leading-5" :class="(prof.isFollowing == false ? 'bg-blue-600' : 'bg-blue-300')"  >{{(prof.isFollowing == true ? "Following" : "Follow")}} </button>
     
 </div>
     `,
