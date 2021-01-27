@@ -56,7 +56,7 @@ export default{
                     console.log('Following is false')
                 }else{
                     console.log('Following is true')
-                }
+}
             }
         }
     }
